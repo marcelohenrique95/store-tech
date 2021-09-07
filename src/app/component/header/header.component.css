@@ -1,0 +1,17 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.h5 {
+  background-color: rgb(124, 1, 1);
+  width: 100%;
+  margin-bottom: 50px;
+}
+.titlechac {
+  text-align: center;
+}
+
+.textHeader {
+  color: #fff;
+  margin: 0 auto;
+}

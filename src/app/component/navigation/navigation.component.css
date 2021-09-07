@@ -1,0 +1,23 @@
+.nav {
+  background-color: rgb(116, 116, 116);
+}
+
+.wrapper {
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  font-size: 250%;
+}
