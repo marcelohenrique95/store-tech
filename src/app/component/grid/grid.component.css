@@ -1,0 +1,22 @@
+.nav {
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  justify-content: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 90px;
+  grid-gap: 20px;
+  color: #444;
+
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  font-size: 250%;
+}
