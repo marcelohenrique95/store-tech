@@ -1,3 +1,4 @@
+import { FooterComponent } from './component/footer/footer.component';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './component/header/header.component';
@@ -27,6 +28,7 @@ import { CadastroFornecedorComponent } from './screen/cadastro/cadastro-forneced
 import { ListaComponent } from './screen/lista/lista/lista.component';
 import { CadastroComponent } from './screen/cadastro/cadastro/cadastro.component';
 import { ContatoComponent } from './screen/contato/contato.component';
+import { PageErrorComponent } from './screen/page-error/page-error.component';
 
 
 @NgModule({
@@ -44,7 +46,9 @@ import { ContatoComponent } from './screen/contato/contato.component';
     CadastroFornecedorComponent,
     ListaComponent,
     CadastroComponent,
-    ContatoComponent
+    ContatoComponent,
+    FooterComponent,
+    PageErrorComponent
   ],
   imports: [
     BrowserModule,

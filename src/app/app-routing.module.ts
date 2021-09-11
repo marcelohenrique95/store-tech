@@ -1,3 +1,6 @@
+import { PageErrorComponent } from './screen/page-error/page-error.component';
+import { CadastroFornecedorComponent } from './screen/cadastro/cadastro-fornecedor/cadastro-fornecedor.component';
+import { CadastroClienteComponent } from './screen/cadastro/cadastro-cliente/cadastro-cliente.component';
 import { ContatoComponent } from './screen/contato/contato.component';
 import { ListaComponent } from './screen/lista/lista/lista.component';
 import { CadastroComponent } from './screen/cadastro/cadastro/cadastro.component';
@@ -26,6 +29,10 @@ const routes: Routes = [
   {
     path: 'contato',
     component: ContatoComponent
+  },
+  {
+    path: '**',
+    component: PageErrorComponent
   }
 
 ];

@@ -1,0 +1,29 @@
+.container {
+  display:flex;
+  margin: auto;
+  margin-top: 55px;
+  text-align: center;
+  padding:5px;
+
+}
+
+.container div {
+  text-align: center;
+  background-color: rgb(151, 151, 151);
+  min-width: 700px;
+  margin:auto;
+  border-radius: 4px;
+  padding:5px;
+  border-radius: 8px;
+}
+
+.container div a {
+  text-align: center;
+  color: rgb(102, 2, 2);
+  font-size: 35px;
+}
+
+.mat-icon {
+  color: rgb(102, 2, 2);
+  font-size: 70px;
+}
