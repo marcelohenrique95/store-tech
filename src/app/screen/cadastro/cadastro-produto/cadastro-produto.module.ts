@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -8,7 +9,8 @@ import { CadastroProdutoRoutingModule } from './cadastro-produto-routing.module'
   declarations: [],
   imports: [
     CommonModule,
-    CadastroProdutoRoutingModule
+    CadastroProdutoRoutingModule,
+    RouterModule
   ]
 })
 export class CadastroProdutoModule { }

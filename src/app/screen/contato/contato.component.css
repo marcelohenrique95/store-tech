@@ -1,0 +1,45 @@
+.container {
+  margin: auto;
+  margin-top: 10px;
+}
+
+.row {
+  display: flex;
+  min-width: 850px;
+  justify-content: center;
+}
+
+.row div {
+  opacity:.7;
+  min-width: 550px;
+  min-height: 200px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.divTitle {
+ text-align: center;
+ background-color: rgb(119, 119, 119);
+ min-width: 850px;
+ min-height: 30px;
+ margin:20px;
+ border-radius: 4px;
+}
+.divTitle div {
+}
+
+.divTwo {
+  background-color: rgb(124, 1, 1);
+ }
+
+ .divThree {
+  background-color: rgb(124, 1, 1);
+ }
+
+ .divFour {
+  background-color: rgb(218, 33, 172);
+ }
+
+ .divFive {
+  background-color: rgb(55, 218, 33);
+ }

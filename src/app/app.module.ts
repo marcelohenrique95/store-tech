@@ -9,14 +9,6 @@ import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HomeComponent } from './screen/home/home.component';
-
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatSliderModule } from '@angular/material/slider';
-import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
-
-
-
 import { FormsModule } from '@angular/forms';
 import { GridComponent } from './component/grid/grid.component';
 import { ListaProdutoComponent } from './screen/lista/lista-produto/lista-produto.component';
@@ -28,7 +20,9 @@ import { CadastroFornecedorComponent } from './screen/cadastro/cadastro-forneced
 import { ListaComponent } from './screen/lista/lista/lista.component';
 import { CadastroComponent } from './screen/cadastro/cadastro/cadastro.component';
 import { ContatoComponent } from './screen/contato/contato.component';
-import { PageErrorComponent } from './screen/page-error/page-error.component';
+import { PageErrorComponent } from './page-error/page-error.component';
+import { SearchBarComponent } from './component/search-bar/search-bar.component';
+import { NavBarComponent } from './component/nav-bar/nav-bar.component';
 
 
 @NgModule({
@@ -48,7 +42,10 @@ import { PageErrorComponent } from './screen/page-error/page-error.component';
     CadastroComponent,
     ContatoComponent,
     FooterComponent,
-    PageErrorComponent
+    PageErrorComponent,
+    SearchBarComponent,
+    NavBarComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -57,10 +54,8 @@ import { PageErrorComponent } from './screen/page-error/page-error.component';
     RouterModule,
     AppRoutingModule,
     FormsModule,
-    MatSliderModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule
+
+
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

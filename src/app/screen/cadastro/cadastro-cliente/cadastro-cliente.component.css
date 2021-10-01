@@ -1,0 +1,31 @@
+.container {
+  width: 850px;
+  margin: 0 auto;
+
+}
+.mat-card-content a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(20, 16, 16);
+  margin-left: 10px;
+  font-size: 20px;
+  color: rgb(172, 149, 149);
+}
+.form-field {
+padding-right: 5px;
+}
+.mat-form-field {
+  position: center;
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+.mat-card {
+  margin: 20px;
+  padding: 50px;
+}
+.button {
+  padding: 60px;
+  margin:100px;
+}

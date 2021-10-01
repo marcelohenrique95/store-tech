@@ -10,7 +10,12 @@ export class CadastroComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('entrou na pag')
+
   }
+
+  click() {
+    console.log('entrou no metodo');
+  }
+
 
 }

@@ -1,4 +1,4 @@
-import { PageErrorComponent } from './screen/page-error/page-error.component';
+import { PageErrorComponent } from './page-error/page-error.component';
 import { CadastroFornecedorComponent } from './screen/cadastro/cadastro-fornecedor/cadastro-fornecedor.component';
 import { CadastroClienteComponent } from './screen/cadastro/cadastro-cliente/cadastro-cliente.component';
 import { ContatoComponent } from './screen/contato/contato.component';
@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path: 'listas',
     component: ListaComponent
+  },
+  {
+    path: 'cadastro-cliente',
+    component: CadastroClienteComponent
   },
   {
     path: 'contato',

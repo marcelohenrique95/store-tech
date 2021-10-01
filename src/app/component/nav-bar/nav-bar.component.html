@@ -1,0 +1,11 @@
+<div class="container-navbar">
+  <div *ngFor="let item of menuOptions">
+    <li [routerLink]="item.link">
+      <i class="fas fa-angle-right">
+      </i>
+      {{item.label}}
+    </li>
+
+    <hr />
+  </div>
+</div>
