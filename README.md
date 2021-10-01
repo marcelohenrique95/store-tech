@@ -1,8 +1,18 @@
 <h1>Store-Tech</h1>
 
-# Angular + Material Design
+# Projeto Angular com CSS puro
 ⚠️ <b> Em desenvolvimento </b>
 
+# Requisitos para rodar projeto
+
+- Nodejs
+- Angular CLI
+
+# Rodar projeto
+
+- npm install
+- npm start
+- url: localhost:4200
 
 
 
